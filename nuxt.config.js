@@ -22,6 +22,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '@/assets/styles/main.scss',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -32,8 +33,15 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/style-resources'
   ],
+
+  styleResources: {
+    scss: [
+      '~assets/styles/_variables.scss'
+    ]
+  },
 
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',

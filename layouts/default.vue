@@ -1,0 +1,14 @@
+<script>
+import AppNavbar from '@/components/AppNavbar.vue'
+export default {
+  components: {
+    AppNavbar
+  }
+}
+</script>
+<template>
+  <div>
+    <AppNavbar />
+    <nuxt />
+  </div>
+</template>

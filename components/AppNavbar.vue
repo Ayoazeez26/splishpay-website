@@ -30,80 +30,59 @@ export default {
 </script>
 <template>
   <nav class="app-nav" :class="scrolled ? 'navbar-scroll' : ''">
-    <ComingSoon :show-modal="showModal" @hide="showModal = false" />
-    <div class="navbar">
-      <div class="navbar-left">
+    <div class="navbar flex">
+      <div class="navbar-left flex justify-between align-middle items-center w-full">
         <NuxtLink to="/" class="navbar__logo">
-          <img src="@/assets/images/splish.png" alt="Splish logo">
+          <img class="w-40" src="@/assets/images/splish.png" alt="Splish logo">
         </NuxtLink>
-        <button class="navbar__toggle d-lg-none" @click="open = !open">
+        <button class="navbar__toggle pr-3 lg:hidden" @click="open = !open">
           <span class="sr-only">Toggle Navbar</span>
           <div />
           <div />
           <div />
         </button>
         <ul
-          class="navbar-links pl-0 pl-sm-5 my-0 nunito"
+          class="navbar-links my-0 bg-white py-5 md:px-8 rounded-lg text-center"
           :class="{ 'navbar-links--open': open }"
         >
-          <button class="navbar-links__toggle d-lg-none" @click="open = !open">
+          <button class="navbar-links__toggle lg:hidden" @click="open = !open">
             <span class="sr-only">Toggle Navbar</span>
             <img src="@/assets/icons/close.svg" alt="close icon">
           </button>
           <li class="navbar-links__item">
             <NuxtLink to="/">
-              Features
+              Card Reader
             </NuxtLink>
           </li>
           <li class="navbar-links__item">
             <NuxtLink to="/#valets">
-              About
+              Merchants
             </NuxtLink>
           </li>
           <li class="navbar-links__item">
             <NuxtLink to="/blog">
-              Blog
+              About
             </NuxtLink>
           </li>
           <li class="navbar-links__item">
             <NuxtLink to="/#valets">
-              FAQ
+              Contact
             </NuxtLink>
           </li>
-          <li class="navbar-links__item d-lg-none">
-            <a data-type="button" class="btn btn-outline-primary" href="https://calendly.com/schooldose/30min" target="_blank" rel="noreferrer">
-              Book Demo
+          <li class="navbar-links__item lg:hidden">
+            <a data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary" href="https://skoolapp-demo.netlify.app/auth/signup">
+              Download The App
             </a>
           </li>
-          <li class="navbar-links__item d-lg-none">
-            <a data-type="button" class="btn btn-outline-primary" href="https://skoolapp-demo.netlify.app/auth/login">
-              Login
-            </a>
-          </li>
-          <li class="navbar-links__item d-lg-none">
-            <a data-type="button" class="btn btn-primary" href="https://skoolapp-demo.netlify.app/auth/signup">
-              Create Account
+        </ul>
+        <ul class="navbar-links d-none d-lg-flex mb-0">
+          <li class="navbar-links__item">
+            <a data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary" href="https://skoolapp-demo.netlify.app/auth/signup">
+              Download The App
             </a>
           </li>
         </ul>
       </div>
-      <ul class="navbar-links d-none d-lg-flex mb-0">
-        <li class="navbar-links__item">
-          <a data-type="button" class="btn btn-outline-primary" href="https://calendly.com/schooldose/30min" target="_blank" rel="noreferrer">
-            Book Demo
-          </a>
-        </li>
-        <li class="navbar-links__item">
-          <a data-type="button" class="btn btn-outline-primary" href="https://skoolapp-demo.netlify.app/auth/login">
-            Login
-          </a>
-        </li>
-        <li class="navbar-links__item">
-          <a data-type="button" class="btn btn-primary" href="https://skoolapp-demo.netlify.app/auth/signup">
-            Create Account
-          </a>
-        </li>
-      </ul>
     </div>
   </nav>
 </template>
@@ -117,19 +96,17 @@ export default {
   z-index: 10;
 }
 .navbar {
-  padding: 30px 10px;
   width: 1400px;
   max-width: 100%;
   margin: 0 auto;
 
   &__logo {
     img {
-      max-width: 200px;
+      max-width: 150px;
     }
   }
 
   &-left {
-    display: flex;
     @media screen and (max-width: 768px) {
       width: 100%;
       justify-content: space-between;
@@ -149,6 +126,10 @@ export default {
         &:hover {
           opacity: 0.9;
           color: #0B2348;
+        }
+        @media screen and (min-width: 768px) {
+          padding-left: 15px;
+          padding-right: 15px;
         }
       }
 
@@ -212,7 +193,7 @@ export default {
     border: none;
 
     div {
-      background-color: $primary;
+      background-color: $black;
       height: 3px;
       border-radius: 2px;
       margin: 4px;
@@ -231,7 +212,7 @@ export default {
   }
   &-scroll {
     box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.1);
-    background-color: white !important;
+    background-color: $grey-2 !important;
   }
 }
 </style>
