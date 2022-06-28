@@ -12,7 +12,7 @@ export default {
   <section id="cta" class="cta my-5">
     <div class="container-gravy relative bg-white rounded-lg mb-5">
       <div class="flex flex-col lg:flex-row justify-between w-full my-8 md:my-16 md:w-11/12 mx-auto">
-        <div class="flex flex-col lg:mr-12 mb-12 lg:mb-0">
+        <div class="touch flex flex-col lg:mr-12 mb-12 lg:mb-0">
           <span class="text-$primary uppercase font-medium mb-6">contact us</span>
           <h2 class="cta__title text-3xl md:text-6xl mb-20">
             Get In Touch
@@ -100,6 +100,10 @@ export default {
 
 <style lang="scss" scoped>
 .cta {
+  .touch {
+    width: 100%;
+    max-width: 393px;
+  }
   &__title {
     width: 100%;
     max-width: 647px;
