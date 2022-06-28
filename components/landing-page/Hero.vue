@@ -5,7 +5,7 @@ export default {
 
 <template>
   <section class="container-gravy mb-5">
-    <div class="header relative bg-$black rounded-lg pt-12 md:pt-44 pl-2 md:pl-28 pb-12 md:pb-40">
+    <div id="hero" class="header relative bg-$black rounded-lg pt-12 md:pt-44 pl-2 md:pl-28 pb-12 md:pb-40">
       <h1 class="header__title text-white text-4xl md:text-7xl">
         Just the right size of convenience
       </h1>
@@ -13,10 +13,10 @@ export default {
         We believe payments should be easy, quick and convenient. Splishpay will change how your business accepts payments
       </p>
       <div class="buttons flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-3 mt-10">
-        <a data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary" href="https://skoolapp-demo.netlify.app/auth/signup">
+        <a data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary" href="#">
           Download The App
         </a>
-        <a data-type="button" class="btn bg-$black flex rounded text-white px-5 text-lg py-4 btn-primary" href="https://skoolapp-demo.netlify.app/auth/signup">
+        <a data-type="button" class="btn bg-$black flex rounded text-white px-5 text-lg py-4 btn-primary" href="#">
           <span>Read Our Story</span><img src="@/assets/icons/Medium.svg" alt="medium icon" class="ml-2">
         </a>
       </div>

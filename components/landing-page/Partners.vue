@@ -11,9 +11,9 @@ export default {
 </script>
 
 <template>
-  <section class="partners my-5">
+  <section id="partners" class="partners my-5">
     <div class="container-gravy relative bg-white rounded-lg mb-5">
-      <div class="flex flex-wrap items-center md:justify-between w-full md:w-3/4 mx-auto">
+      <div class="flex flex-wrap items-center justify-between space-y-4 md:space-y-0 w-full md:w-3/4 mx-auto">
         <img src="@/assets/images/bloc.png" alt="bloc" class="px-4">
         <img src="@/assets/images/Mastercard.png" alt="mastercard" class="px-4">
         <img src="@/assets/images/kuda.png" alt="kuda" class="px-4">
@@ -36,7 +36,7 @@ export default {
               <img src="@/assets/icons/Tick.svg" alt="tick" class="mr-4"> <p>{{ list }}</p>
             </div>
           </div>
-          <a data-type="button" class="btn bg-$primary rounded self-start text-white px-5 text-lg py-4 btn-primary mt-10" href="https://skoolapp-demo.netlify.app/auth/signup">
+          <a data-type="button" class="btn bg-$primary rounded self-start text-white px-5 text-lg py-4 btn-primary mt-10" href="#">
             Download The App
           </a>
         </div>

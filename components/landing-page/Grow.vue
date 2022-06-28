@@ -217,11 +217,15 @@ export default {
         }
         @media screen and (max-width: 768px) {
           height: auto;
+          margin-right: 0;
         }
       }
       &:nth-child(3) {
         @media screen and (max-width: 951px) {
           margin-right: 24px;
+        }
+        @media screen and (max-width: 768px) {
+          margin-right: 0;
         }
       }
       &:nth-child(4) {
@@ -258,6 +262,7 @@ export default {
         }
         @media screen and (max-width: 768px) {
           height: auto;
+          margin-right: 0;
         }
       }
 
@@ -279,6 +284,7 @@ export default {
         }
         @media screen and (max-width: 768px) {
           height: auto;
+          margin-right: 0;
         }
       }
 
@@ -287,11 +293,12 @@ export default {
         max-width: 400px;
         height: 400px;
         background-color: $black-2;
-        @media screen and (max-width: 768px) {
-          height: auto;
-        }
         @media screen and (max-width: 1375px) {
           margin-right: 24px;
+        }
+        @media screen and (max-width: 768px) {
+          height: auto;
+          margin-right: 0;
         }
       }
 

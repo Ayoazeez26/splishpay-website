@@ -23,7 +23,7 @@ export default {
       this.scrolled = window.scrollY > 0
     },
     goToBook () {
-      this.$router.push('http://calendly.com/schooldose')
+      this.$router.push('http://calendly.com/')
     }
   }
 }
@@ -50,34 +50,34 @@ export default {
             <img src="@/assets/icons/close.svg" alt="close icon">
           </button>
           <li class="navbar-links__item">
-            <NuxtLink to="/">
+            <NuxtLink to="/#hero">
               Card Reader
             </NuxtLink>
           </li>
           <li class="navbar-links__item">
-            <NuxtLink to="/#valets">
+            <NuxtLink to="/#partners">
               Merchants
             </NuxtLink>
           </li>
           <li class="navbar-links__item">
-            <NuxtLink to="/blog">
+            <NuxtLink to="/about">
               About
             </NuxtLink>
           </li>
           <li class="navbar-links__item">
-            <NuxtLink to="/#valets">
+            <NuxtLink to="/#cta">
               Contact
             </NuxtLink>
           </li>
           <li class="navbar-links__item lg:hidden">
-            <a data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary" href="https://skoolapp-demo.netlify.app/auth/signup">
+            <a data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary" href="#">
               Download The App
             </a>
           </li>
         </ul>
         <ul class="navbar-links d-none d-lg-flex mb-0">
           <li class="navbar-links__item">
-            <a data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary" href="https://skoolapp-demo.netlify.app/auth/signup">
+            <a data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary" href="#">
               Download The App
             </a>
           </li>
