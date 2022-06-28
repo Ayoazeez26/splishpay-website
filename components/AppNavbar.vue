@@ -33,7 +33,7 @@ export default {
     <div class="navbar flex">
       <div class="navbar-left flex justify-between align-middle items-center w-full">
         <NuxtLink to="/" class="navbar__logo">
-          <img class="w-40" src="@/assets/images/splish.png" alt="Splish logo">
+          <img class="w-20 sm:w-40" src="@/assets/images/splish.png" alt="Splish logo">
         </NuxtLink>
         <button class="navbar__toggle pr-3 lg:hidden" @click="open = !open">
           <span class="sr-only">Toggle Navbar</span>
