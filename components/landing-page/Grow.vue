@@ -211,7 +211,7 @@ export default {
         max-width: 576px;
         height: 621px;
         background-image: url('@/assets/images/yellow_bg.png');
-        background-position: cover;
+        background-size: cover;
         @media screen and (max-width: 1085px) {
           margin-left: 0;
         }
