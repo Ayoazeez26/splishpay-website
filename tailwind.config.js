@@ -8,7 +8,9 @@ module.exports = {
         $black: '#0F0F0F',
         '$grey-2': '#F7F7F7',
         '$grey-3': '#F2F2F2',
-        '$black-2': '#272727'
+        '$black-2': '#272727',
+        '$grey-4': '#B7B7B7',
+        '$grey-5': '#878787'
       }
     }
   },

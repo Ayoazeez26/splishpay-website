@@ -1,6 +1,6 @@
 <script>
 import AppNavbar from '@/components/AppNavbar.vue'
-import AppFooter from '~/components/landing-page/AppFooter.vue'
+import AppFooter from '~/components/AppFooter.vue'
 export default {
   components: {
     AppNavbar,
