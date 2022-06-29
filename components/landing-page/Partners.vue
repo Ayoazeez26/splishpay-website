@@ -16,8 +16,8 @@ export default {
       <div class="flex flex-wrap items-center justify-between space-y-4 md:space-y-0 w-full md:w-3/4 mx-auto">
         <img src="@/assets/images/bloc.png" alt="bloc" class="px-4">
         <img src="@/assets/images/Mastercard.png" alt="mastercard" class="px-4">
-        <img src="@/assets/images/kuda.png" alt="kuda" class="px-4">
         <img src="@/assets/images/Visa.png" alt="Visa" class="px-4">
+        <img src="@/assets/images/kuda.png" alt="kuda" class="px-4">
         <img src="@/assets/images/interswitch.png" alt="Interswitch" class="px-4">
       </div>
     </div>
@@ -41,7 +41,7 @@ export default {
           </a>
         </div>
         <div class="phones flex justify-center items-end bg-$grey-3 rounded mt-10 md:mt-0">
-          <img src="@/assets/images/phones.png" alt="picture of phones">
+          <img src="@/assets/images/phones_new.png" alt="picture of phones">
         </div>
       </div>
     </div>

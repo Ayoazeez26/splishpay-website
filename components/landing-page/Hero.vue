@@ -6,7 +6,7 @@ export default {
 <template>
   <section class="container-gravy mb-5">
     <div id="hero" class="header relative bg-$black rounded-lg pt-12 md:pt-44 pl-2 md:pl-28 pb-12 md:pb-40">
-      <h1 class="header__title text-white text-4xl md:text-7xl">
+      <h1 class="header__title text-white text-4xl md:text-6xl lg:text-8xl">
         Just the right size of convenience
       </h1>
       <p class="header__subtitle text-white text-xl md:text-2xl mt-6">

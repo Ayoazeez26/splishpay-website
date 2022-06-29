@@ -77,7 +77,7 @@ export default {
         </ul>
         <ul class="navbar-links d-none d-lg-flex mb-0">
           <li class="navbar-links__item">
-            <a data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary" href="#">
+            <a data-type="button" class="btn bg-$primary rounded text-white px-7 text-lg py-5 btn-primary" href="#">
               Download The App
             </a>
           </li>
@@ -121,11 +121,11 @@ export default {
     &__item {
       margin: 0 10px;
       a:not([data-type=button]) {
-        color: #0B2348;
+        color: $black;
         text-decoration: none;
         &:hover {
           opacity: 0.9;
-          color: #0B2348;
+          color: $black;
         }
         @media screen and (min-width: 768px) {
           padding-left: 15px;
