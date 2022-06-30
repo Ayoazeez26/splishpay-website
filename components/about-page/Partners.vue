@@ -112,7 +112,7 @@ export default {
   }
   .desc {
     width: 100%;
-    max-width: 284px;
+    max-width: 285px;
     &__subtitle {
       width: 100%;
       max-width: 273px;
