@@ -23,37 +23,37 @@ export default {
           class="navbar-links flex flex-col md:flex-row md:text-center text-white"
         >
           <li class="navbar-links__item md:mr-5">
-            <NuxtLink to="/">
+            <NuxtLink to="/#hero">
               Card Reader
             </NuxtLink>
           </li>
           <li class="navbar-links__item md:mx-5 mt-3 md:mt-0">
-            <NuxtLink to="/#valets">
+            <NuxtLink to="/#partners">
               Merchants
             </NuxtLink>
           </li>
           <li class="navbar-links__item md:mx-5 mt-3 md:mt-0">
-            <NuxtLink to="/blog">
+            <NuxtLink to="/about">
               About
             </NuxtLink>
           </li>
           <li class="navbar-links__item md:mx-5 mt-3 md:mt-0">
-            <NuxtLink to="/#valets">
+            <NuxtLink to="/#cta">
               Contact
             </NuxtLink>
           </li>
         </ul>
         <div class="socials flex flex-col sm:flex-row">
-          <a href="#" class="item w-10 h-10 rounded-sm bg-white flex items-center justify-center sm:ml-2 mb-3 sm:mb-0">
+          <a href="https://www.instagram.com/splishpay/" target="_blank" class="item w-10 h-10 rounded-sm bg-white flex items-center justify-center sm:ml-2 mb-3 sm:mb-0">
             <img src="@/assets/icons/Instagram.svg" alt="Instagram Icon" class="">
           </a>
-          <a href="#" class="item w-10 h-10 rounded-sm bg-white flex items-center justify-center sm:ml-2 mb-3 sm:mb-0">
+          <a href="https://twitter.com/splishpay/" target="_blank" class="item w-10 h-10 rounded-sm bg-white flex items-center justify-center sm:ml-2 mb-3 sm:mb-0">
             <img src="@/assets/icons/Twitter.svg" alt="Twitter Icon" class="">
           </a>
-          <a href="#" class="item w-10 h-10 rounded-sm bg-white flex items-center justify-center sm:ml-2 mb-3 sm:mb-0">
+          <a href="https://www.facebook.com/splishpay/" target="_blank" class="item w-10 h-10 rounded-sm bg-white flex items-center justify-center sm:ml-2 mb-3 sm:mb-0">
             <img src="@/assets/icons/Facebook.svg" alt="Facebook Icon" class="">
           </a>
-          <a href="#" class="item w-10 h-10 rounded-sm bg-white flex items-center justify-center sm:ml-2">
+          <a href="https://www.linkedin.com/company/splishpay/" target="_blank" class="item w-10 h-10 rounded-sm bg-white flex items-center justify-center sm:ml-2">
             <img src="@/assets/icons/LinkedIn.svg" alt="LinkedIn Icon" class="">
           </a>
         </div>

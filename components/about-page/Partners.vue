@@ -60,28 +60,18 @@ export default {
     </div>
     <div class="container-gravy relative bg-$grey-2 mt-5">
       <div class="content flex flex-col md:flex-row justify-between">
-        <div class="content-item rounded-lg bg-$black md:mr-5">
-          <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/embed/AglcaO0PZ6c"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          />
-        </div>
-        <div class="content-item rounded-lg bg-$black md:ml-5 mt-8 md:mt-0">
-          <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/embed/AglcaO0PZ6c"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          />
-        </div>
+        <a href="https://youtu.be/wMtAUgfwAgk" target="_blank" class="content-item flex flex-col items-center justify-center rounded-lg md:mr-5 py-32 sm:py-40 lg:py-0">
+          <p class="text-white text-3xl md:text-4xl mb-6">
+            Watch Our Story
+          </p>
+          <img class="w-20 md:w-auto" src="@/assets/icons/youtube.svg" alt="Youtube Icon">
+        </a>
+        <a href="https://youtube.com/shorts/Gli5ogTsg3o?feature=share" target="_blank" class="content-item flex flex-col items-center justify-center rounded-lg mt-6 md:mt-0 py-32 sm:py-40 lg:py-0">
+          <p class="text-white text-3xl md:text-4xl mb-6">
+            Splish For You
+          </p>
+          <img class="w-20 md:w-auto" src="@/assets/icons/youtube.svg" alt="Youtube Icon">
+        </a>
       </div>
     </div>
   </section>
@@ -126,8 +116,17 @@ export default {
     width: 100%;
     max-width: 684px;
     height: 664px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &:nth-child(1) {
+      background-image: url('@/assets/images/device_1.png');
+    }
+    &:nth-child(2) {
+      background-image: url('@/assets/images/device_2.png');
+    }
     @media screen and (max-width: 768px) {
-      height: 320px;
+      height: auto;
     }
   }
   @media screen and (max-width: 768px) {

@@ -21,7 +21,7 @@ export default {
         <p class="reason__subtitle text-xl md:text-3xl mt-6">
           Splish is an uncomplicated solution for new and existing business owners. I’ve never used a POS system like this before, it’s easy to use with an easy learning curve. — you are in the right place!
         </p>
-        <img src="@/assets/images/avatar.png" alt="avatar" class="mt-6 md:mt-14 w-20 md:w-auto mx-auto">
+        <img src="@/assets/images/avatar-hd.png" alt="avatar" class="mt-6 md:mt-14 w-20 md:w-auto mx-auto">
         <p class="text-$primary font-medium text-xl md:text-2xl mt-6">
           Dammy Ade
         </p>
@@ -53,9 +53,12 @@ export default {
       max-width: 383px;
     }
   }
-  .phones {
-    width: 100%;
-    max-width: 647px;
+  img {
+    width: 116px;
+    height: 116px;
+    @media screen and (max-width: 768px) {
+      width: 80px;
+    }
   }
 }
 </style>

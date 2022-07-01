@@ -171,7 +171,7 @@ export default {
                 We design and build affordable hardware to work with any kind of business. Accept payments in the most secure way.
               </p>
             </div>
-            <img src="@/assets/images/splishwarev2.png" alt="splishware image" class="-mt-12 w-32 md:w-auto hidden sm:flex">
+            <img src="@/assets/images/splishwarev2-hd.png" alt="splishware image" class="splish -mt-12 w-32 md:w-auto hidden sm:flex">
           </div>
         </div>
       </div>
@@ -347,6 +347,10 @@ export default {
       }
 
     }
+  }
+  .splish {
+    width: 220px;
+    height: 352px;
   }
 }
 </style>

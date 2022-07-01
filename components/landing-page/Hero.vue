@@ -16,11 +16,11 @@ export default {
         <a data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary" href="#">
           Download The App
         </a>
-        <a data-type="button" class="btn bg-$black flex rounded text-white px-5 text-lg py-4 btn-primary" href="#">
+        <a data-type="button" class="btn bg-$black flex rounded text-white px-5 text-lg py-4 btn-primary" href="https://medium.com/@splishpay" target="_blank">
           <span>Read Our Story</span><img src="@/assets/icons/Medium.svg" alt="medium icon" class="ml-2">
         </a>
       </div>
-      <img src="@/assets/images/splishware.png" alt="Splish card reader" class="header__bg header__bg-1 md:absolute md:top-0 md:right-0 md:mt-20">
+      <img src="@/assets/images/splishware-hd.png" alt="Splish card reader" class="header__bg header__bg-1 md:absolute md:top-0 md:right-0 md:mt-20">
     </div>
   </section>
 </template>
@@ -38,7 +38,8 @@ export default {
     width: 100%;
     max-width: 644px;
   }
-  img {
+  &__bg {
+    width: 652px;
     @media screen and (min-width: 768px) and (max-width: 1280px) {
       display: none;
     }

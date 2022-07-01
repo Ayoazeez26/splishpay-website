@@ -26,7 +26,7 @@ export default {
                 Schedule Demo
               </a>
             </div>
-            <img src="@/assets/images/splishwarev3.png" alt="splishpay v3">
+            <img src="@/assets/images/splishwarev3-hd.png" alt="splishpay v3">
           </div>
         </div>
         <div class="enquire rounded-lg flex flex-col p-6 md:p-12 bg-$grey-3 mt-10 md:mt-0">
