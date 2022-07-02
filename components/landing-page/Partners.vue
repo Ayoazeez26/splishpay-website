@@ -14,21 +14,21 @@ export default {
   <section id="partners" class="partners my-5">
     <div class="container-gravy relative bg-white rounded-lg mb-5">
       <div class="flex flex-wrap items-center justify-between space-y-4 md:space-y-0 w-full md:w-3/4 mx-auto">
-      <div class="w-1/2 sm:w-auto">
-      <img src="@/assets/images/bloc.png" alt="bloc" class="pr-4">
-      </div>
-      <div class="w-1/2 sm:w-auto">
-        <img src="@/assets/images/Mastercard.png" alt="mastercard" class="pr-4">
-      </div>
-      <div class="w-1/2 sm:w-auto">
-        <img src="@/assets/images/Visa.png" alt="Visa" class="pr-4">
-      </div>
-      <div class="w-1/2 sm:w-auto">
-        <img src="@/assets/images/kuda.png" alt="kuda" class="pr-4">
-      </div>
-      <div class="w-1/2 sm:w-auto">
-        <img src="@/assets/images/interswitch.png" alt="Interswitch" class="pr-4">
-      </div>
+        <div class="w-1/2 sm:w-auto">
+          <img src="@/assets/images/bloc.png" alt="bloc" class="pr-4">
+        </div>
+        <div class="w-1/2 sm:w-auto">
+          <img src="@/assets/images/Mastercard.png" alt="mastercard" class="pr-4">
+        </div>
+        <div class="w-1/2 sm:w-auto">
+          <img src="@/assets/images/Visa.png" alt="Visa" class="pr-4">
+        </div>
+        <div class="w-1/2 sm:w-auto">
+          <img src="@/assets/images/kuda.png" alt="kuda" class="pr-4">
+        </div>
+        <div class="w-1/2 sm:w-auto">
+          <img src="@/assets/images/interswitch.png" alt="Interswitch" class="pr-4">
+        </div>
       </div>
     </div>
     <div class="container-gravy relative bg-white rounded-lg mt-5">

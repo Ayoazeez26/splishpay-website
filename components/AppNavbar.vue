@@ -14,6 +14,9 @@ export default {
       window.addEventListener('scroll', this.handleScroll)
     }
   },
+  mounted () {
+    this.handleClick()
+  },
   destroyed () {
     // eslint-disable-next-line nuxt/no-globals-in-created
     window.removeEventListener('scroll', this.handleScroll)
@@ -24,6 +27,21 @@ export default {
     },
     goToBook () {
       this.$router.push('http://calendly.com/')
+    },
+    handleClick () {
+      const links = document.querySelectorAll('.navbar-links__item a')
+      for (let i = 0; i < links.length; i++) {
+        links[i].addEventListener('click', function () {
+          this.parentElement.parentElement.children[0].click()
+        })
+      }
+      // Array.prototype.forEach.call(links, function (link) {
+      //   link.addEventListener('click', (e) => {
+      //     console.log(this.showModal)
+      //     e.preventDefault()
+      //     // this.open = false
+      //   })
+      // })
     }
   }
 }
