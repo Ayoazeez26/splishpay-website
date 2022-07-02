@@ -19,7 +19,7 @@ export default {
           </h2>
           <div class="discover text-white flex flex-col justify-between bg-$black pt-10 rounded-lg">
             <div class="px-11 ">
-              <p class="text-xl md:text-2xl mb-12">
+              <p class="sf text-xl md:text-2xl mb-12">
                 Discover what Splish can do for you. Schedule a product demo today.
               </p>
               <a data-type="button" class="btn bg-$black border border-$primary rounded text-$primary px-11 text-lg py-5 btn-primary" href="#">
@@ -31,10 +31,10 @@ export default {
         </div>
         <div class="enquire rounded-lg flex flex-col p-6 md:p-12 bg-$grey-3 mt-10 md:mt-0">
           <span class="text-$black uppercase font-medium">business enquiries</span>
-          <p class="cta__subtitle text-xl md:text-2xl mt-6">
+          <p class="sf cta__subtitle text-xl md:text-2xl mt-6">
             We’re always open to collaborations and business partnerships. Contact us and we will reply in a few hours.
           </p>
-          <form class="enquire-form mt-8" @submit.prevent="handleSubmit">
+          <form class="sf enquire-form mt-8" @submit.prevent="handleSubmit">
             <div class="mb-6">
               <label for="name" class="flex-grow">
                 <p class="">Full Name</p>
@@ -69,11 +69,11 @@ export default {
       </div>
     </div>
     <div class="container-gravy mt-5">
-      <div class="subscribe relative bg-$primary rounded-lg p-10 md:p-20">
+      <div class="subscribe relative bg-$primary rounded-lg p-6 md:p-20">
         <h2 class="subscribe__title text-white text-3xl md:text-6xl">
           Do it the easy way
         </h2>
-        <p class="subscribe__subtitle text-white text-xl md:text-2xl mt-6">
+        <p class="sf subscribe__subtitle text-white text-xl md:text-2xl mt-6">
           Join our mailing list and stay up-to-date with stories, features, discount and exclusives. No spam. Real stuff only.
         </p>
         <form class="subscribe-form mt-10 w-full" @submit.prevent="handleSubmit">
@@ -175,6 +175,10 @@ export default {
         backdrop-filter: blur(29px);
       }
     }
+  }
+  @media screen and (max-width: 768px) {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 </style>

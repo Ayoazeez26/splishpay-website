@@ -34,7 +34,7 @@ export default {
         <h3 class="partners__title">
           Splish is building card readers and point of sale software for people who want to start, run and grow businesses.
         </h3>
-        <div class="partners__subtitle">
+        <div class="sf partners__subtitle">
           <p class="">
             SplishPay’s story begins with its name being coined from Miguel’s adlib on “Sky Walker”. Being a celebratory tune we have channeled that energy of excitement into building an ultimate transactional experience on our platform where ease of use and performance is at its core base.
           </p>
@@ -52,7 +52,7 @@ export default {
           <p class="text-$black">
             {{ item.title }}
           </p>
-          <p class="desc__subtitle mt-3 text-base">
+          <p class="sf desc__subtitle mt-3 text-base">
             {{ item.subtitle }}
           </p>
         </div>
@@ -106,7 +106,17 @@ export default {
     &__subtitle {
       width: 100%;
       max-width: 273px;
+      @media screen and (max-width: 768px) {
+        max-width: 100%;
+      }
     }
+    @media screen and (max-width: 768px) {
+      max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 .content {
@@ -128,10 +138,6 @@ export default {
     @media screen and (max-width: 768px) {
       height: auto;
     }
-  }
-  @media screen and (max-width: 768px) {
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 </style>

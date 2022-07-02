@@ -18,7 +18,7 @@ export default {
       <h1 class="grow__title text-white text-4xl md:text-6xl mx-auto mt-6">
         Do it the easy way
       </h1>
-      <p class="grow__subtitle text-white text-xl md:text-2xl mt-6 mx-auto">
+      <p class="sf grow__subtitle text-white text-xl md:text-2xl mt-6 mx-auto">
         With our complete business toolkit, maximize the efficiency of your business.
       </p>
       <div class="cards flex flex-wrap mx-auto mt-12 px-4 md:px-10 w-full">
@@ -42,7 +42,7 @@ export default {
             <p class="mt-6 text-2xl md:text-4xl">
               Create an account within minutes and enjoy access to future-focused tools for your business from point-of-sale to financial services
             </p>
-            <p class="mt-6 text-lg">
+            <p class="sf mt-6 text-lg">
               No hidden fees. Only pay when you take a payment
             </p>
           </div>
@@ -56,7 +56,7 @@ export default {
             <p class="mt-8 text-xl md:text-2xl">
               Create and manage items, so you can sell better and faster
             </p>
-            <div class="mt-8 w-full">
+            <div class="sf mt-8 w-full">
               <div class="item flex justify-between items-center p-4">
                 <div class="flex">
                   <div class="green w-8 h-8 rounded-full mr-2" />
@@ -351,6 +351,10 @@ export default {
   .splish {
     width: 220px;
     height: 352px;
+  }
+  @media screen and (max-width: 768px) {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 </style>

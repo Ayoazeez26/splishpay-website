@@ -14,11 +14,21 @@ export default {
   <section id="partners" class="partners my-5">
     <div class="container-gravy relative bg-white rounded-lg mb-5">
       <div class="flex flex-wrap items-center justify-between space-y-4 md:space-y-0 w-full md:w-3/4 mx-auto">
-        <img src="@/assets/images/bloc.png" alt="bloc" class="px-4">
-        <img src="@/assets/images/Mastercard.png" alt="mastercard" class="px-4">
-        <img src="@/assets/images/Visa.png" alt="Visa" class="px-4">
-        <img src="@/assets/images/kuda.png" alt="kuda" class="px-4">
-        <img src="@/assets/images/interswitch.png" alt="Interswitch" class="px-4">
+      <div class="w-1/2 sm:w-auto">
+      <img src="@/assets/images/bloc.png" alt="bloc" class="pr-4">
+      </div>
+      <div class="w-1/2 sm:w-auto">
+        <img src="@/assets/images/Mastercard.png" alt="mastercard" class="pr-4">
+      </div>
+      <div class="w-1/2 sm:w-auto">
+        <img src="@/assets/images/Visa.png" alt="Visa" class="pr-4">
+      </div>
+      <div class="w-1/2 sm:w-auto">
+        <img src="@/assets/images/kuda.png" alt="kuda" class="pr-4">
+      </div>
+      <div class="w-1/2 sm:w-auto">
+        <img src="@/assets/images/interswitch.png" alt="Interswitch" class="pr-4">
+      </div>
       </div>
     </div>
     <div class="container-gravy relative bg-white rounded-lg mt-5">
@@ -28,12 +38,14 @@ export default {
           <h2 class="partners__title text-3xl md:text-6xl">
             Proudly designed for everyday business
           </h2>
-          <p class="partners__subtitle text-xl md:text-2xl mt-6">
+          <p class="sf partners__subtitle text-xl md:text-2xl mt-6">
             Out with the old, in with the new. Splish features are designed for every merchant.
           </p>
           <div class="list mt-8">
             <div v-for="(list, index) in listData" :key="index" class="flex space-x-2 text-lg mb-8">
-              <img src="@/assets/icons/Tick.svg" alt="tick" class="mr-4"> <p>{{ list }}</p>
+              <img src="@/assets/icons/Tick.svg" alt="tick" class="mr-4"> <p class="sf">
+                {{ list }}
+              </p>
             </div>
           </div>
           <a data-type="button" class="btn bg-$primary rounded self-start text-white px-5 text-lg py-4 btn-primary mt-10" href="#">
@@ -58,6 +70,9 @@ export default {
     width: 100%;
     max-width: 576px;
   }
+  &-logos {
+    width: 180px;
+  }
   .list {
     p {
       width: 100%;
@@ -67,6 +82,10 @@ export default {
   .phones {
     width: 100%;
     max-width: 647px;
+  }
+  @media screen and (max-width: 768px) {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 </style>

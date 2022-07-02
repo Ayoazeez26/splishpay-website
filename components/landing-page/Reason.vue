@@ -18,7 +18,7 @@ export default {
         <h2 class="reason__title text-3xl md:text-6xl">
           Fast, Easy, Secure.
         </h2>
-        <p class="reason__subtitle text-xl md:text-3xl mt-6">
+        <p class="sf reason__subtitle text-xl md:text-3xl mt-6">
           Splish is an uncomplicated solution for new and existing business owners. I’ve never used a POS system like this before, it’s easy to use with an easy learning curve. — you are in the right place!
         </p>
         <img src="@/assets/images/avatar-hd.png" alt="avatar" class="mt-6 md:mt-14 w-20 md:w-auto mx-auto">
@@ -58,7 +58,12 @@ export default {
     height: 116px;
     @media screen and (max-width: 768px) {
       width: 80px;
+      height: 80px;
     }
+  }
+  @media screen and (max-width: 768px) {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 </style>
