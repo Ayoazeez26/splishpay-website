@@ -130,10 +130,10 @@ export default {
     background-position: center;
     background-size: cover;
     &:nth-child(1) {
-      background-image: url('@/assets/images/demo.png');
+      background-image: url('@/assets/images/demo.jpg');
     }
     &:nth-child(2) {
-      background-image: url('@/assets/images/splish.jpg');
+      background-image: url('@/assets/images/splishware4u.png');
     }
     @media screen and (max-width: 768px) {
       height: auto;
