@@ -62,13 +62,13 @@ export default {
       <div class="content flex flex-col md:flex-row justify-between">
         <a href="https://youtu.be/wMtAUgfwAgk" target="_blank" class="content-item flex flex-col items-center justify-center rounded-lg md:mr-5 py-32 sm:py-40 lg:py-0">
           <p class="text-white text-3xl md:text-4xl mb-6">
-            Watch Our Story
+            Watch A Demo
           </p>
           <img class="w-20 md:w-auto" src="@/assets/icons/youtube.svg" alt="Youtube Icon">
         </a>
         <a href="https://youtube.com/shorts/Gli5ogTsg3o?feature=share" target="_blank" class="content-item flex flex-col items-center justify-center rounded-lg mt-6 md:mt-0 py-32 sm:py-40 lg:py-0">
           <p class="text-white text-3xl md:text-4xl mb-6">
-            Splish For You
+            SplishWare For You
           </p>
           <img class="w-20 md:w-auto" src="@/assets/icons/youtube.svg" alt="Youtube Icon">
         </a>
@@ -130,10 +130,10 @@ export default {
     background-position: center;
     background-size: cover;
     &:nth-child(1) {
-      background-image: url('@/assets/images/device_1.png');
+      background-image: url('@/assets/images/demo.png');
     }
     &:nth-child(2) {
-      background-image: url('@/assets/images/device_2.png');
+      background-image: url('@/assets/images/splish.jpg');
     }
     @media screen and (max-width: 768px) {
       height: auto;
