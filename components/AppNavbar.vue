@@ -110,7 +110,7 @@ export default {
   position: fixed;
   top: 0;
   width: 100%;
-  // border-bottom: 1px solid #E3E8EF;
+  border-bottom: 1px solid #E3E8EF;
   z-index: 10;
 }
 .navbar {
@@ -229,9 +229,9 @@ export default {
     }
   }
   &-scroll {
-    // box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.1);
-    // background-color: $grey-2 !important;
-    background-color: transparent !important;
+    box-shadow: 1px 2px 18px rgba(0, 0, 0, 0.1);
+    background-color: $grey-2 !important;
+    // background-color: transparent !important;
   }
 }
 </style>

@@ -14,27 +14,27 @@ export default {
   <section id="partners" class="partners my-5">
     <div class="container-gravy relative bg-white rounded-lg mb-5">
       <div class="flex flex-wrap items-center justify-between space-y-4 md:space-y-0 w-full md:w-3/4 mx-auto">
-        <div class="w-1/2 sm:w-auto">
-          <img src="@/assets/images/bloc.png" alt="bloc" class="pr-4">
+        <div class="w-1/6 sm:w-auto">
+          <img src="@/assets/images/bloc.png" alt="bloc" class="sm:pr-4">
         </div>
-        <div class="w-1/2 sm:w-auto">
-          <img src="@/assets/images/Mastercard.png" alt="mastercard" class="pr-4">
+        <div class="w-1/6 sm:w-auto">
+          <img src="@/assets/images/Mastercard.png" alt="mastercard" class="sm:pr-4">
         </div>
-        <div class="w-1/2 sm:w-auto">
-          <img src="@/assets/images/Visa.png" alt="Visa" class="pr-4">
+        <div class="w-1/6 sm:w-auto">
+          <img src="@/assets/images/Visa.png" alt="Visa" class="sm:pr-4">
         </div>
-        <div class="w-1/2 sm:w-auto">
-          <img src="@/assets/images/kuda.png" alt="kuda" class="pr-4">
+        <div class="w-1/6 sm:w-auto">
+          <img src="@/assets/images/kuda.png" alt="kuda" class="sm:pr-4">
         </div>
-        <div class="w-1/2 sm:w-auto">
-          <img src="@/assets/images/interswitch.png" alt="Interswitch" class="pr-4">
+        <div class="w-1/6 sm:w-auto">
+          <img src="@/assets/images/interswitch.png" alt="Interswitch" class="sm:pr-4">
         </div>
       </div>
     </div>
     <div class="container-gravy relative bg-white rounded-lg mt-5">
       <div class="flex flex-col md:flex-row justify-between w-full mt-20 md:w-11/12 mx-auto">
         <div class="flex flex-col">
-          <span class="text-$primary uppercase font-medium mb-6">start with splish</span>
+          <span class="text-$primary uppercase font-medium mb-6 tracking-widest">start with splish</span>
           <h2 class="partners__title text-3xl md:text-6xl">
             Proudly designed for everyday business
           </h2>
