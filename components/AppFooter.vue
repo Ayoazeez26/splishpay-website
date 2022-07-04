@@ -4,7 +4,7 @@ export default {
 </script>
 
 <template>
-  <footer class="container-gravy mt-5">
+  <footer id="footer" class="container-gravy mt-5">
     <div class="footer relative bg-$black rounded-lg px-10 py-7 md:px-20 md:py-14">
       <div class="w-full flex justify-between items-end">
         <img src="@/assets/images/sp.png" alt="footer logo" class="w-20 sm:w-auto">
@@ -12,9 +12,10 @@ export default {
           <p class="sf footer__subtitle text-white mb-4 sm:mb-0 sm:mr-7 text-xl md:text-3xl">
             Ready for takeoff ?
           </p>
-          <a data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary min-w-max" href="#">
-            Download The App
-          </a>
+          <div class="flex items-center space-x-4">
+            <a href="#"><img src="@/assets/icons/play-store.svg" alt="play store icon"></a>
+            <a href="#"><img src="@/assets/icons/apple.svg" alt="apple icon"></a>
+          </div>
         </div>
       </div>
       <div class="line w-full h-px bg-$black-2 my-10" />

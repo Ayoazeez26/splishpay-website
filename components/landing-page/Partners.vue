@@ -48,7 +48,7 @@ export default {
               </p>
             </div>
           </div>
-          <a data-type="button" class="btn bg-$primary rounded self-start text-white px-5 text-lg py-4 btn-primary mt-10" href="#">
+          <a data-type="button" class="btn bg-$primary rounded self-start text-white px-5 text-lg py-4 btn-primary mt-10" href="#footer">
             Download The App
           </a>
         </div>

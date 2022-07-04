@@ -88,14 +88,14 @@ export default {
             </NuxtLink>
           </li>
           <li class="navbar-links__item lg:hidden">
-            <a data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary" href="#">
+            <a href="#footer" data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary">
               Download The App
             </a>
           </li>
         </ul>
         <ul class="navbar-links d-none d-lg-flex mb-0">
           <li class="navbar-links__item">
-            <a data-type="button" class="btn bg-$primary rounded text-white px-7 text-lg py-5 btn-primary" href="#">
+            <a href="#footer" data-type="button" class="btn bg-$primary rounded text-white px-7 text-lg py-5 btn-primary">
               Download The App
             </a>
           </li>

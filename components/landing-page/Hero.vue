@@ -13,7 +13,7 @@ export default {
         We believe payments should be easy, quick and convenient. Splishpay will change how your business accepts payments
       </p>
       <div class="buttons flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-3 mt-10">
-        <a data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary" href="#">
+        <a data-type="button" class="btn bg-$primary rounded text-white px-5 text-lg py-4 btn-primary" href="#footer">
           Download The App
         </a>
         <a data-type="button" class="btn bg-$black flex rounded text-white px-5 text-lg py-4 btn-primary" href="https://medium.com/@splishpay" target="_blank">
