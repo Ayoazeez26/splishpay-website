@@ -13,8 +13,8 @@ export default {
             Ready for takeoff ?
           </p>
           <div class="flex items-center space-x-4">
-            <a href="#"><img src="@/assets/icons/play-store.svg" alt="play store icon"></a>
-            <a href="#"><img src="@/assets/icons/apple.svg" alt="apple icon"></a>
+            <a href="https://play.google.com/store/apps/details?id=com.splishpay" class="bg-$primary h-16 w-16 flex items-center justify-center rounded"><img src="@/assets/icons/play-store.svg" alt="play store icon"></a>
+            <a href="https://apps.apple.com/ng/app/splishpay/id1588951032" class="bg-$primary h-16 w-16 flex items-center justify-center rounded"><img src="@/assets/icons/apple.svg" alt="apple icon"></a>
           </div>
         </div>
       </div>
@@ -60,7 +60,9 @@ export default {
         </div>
       </div>
       <div class="line w-full h-px bg-$black-2 my-10" />
-      <p class="text-xs copy">SplishPay © 2022 All Rights Reserved | Privacy Policy</p>
+      <p class="text-xs copy">
+        SplishPay © 2022 All Rights Reserved | Privacy Policy
+      </p>
     </div>
   </footer>
 </template>

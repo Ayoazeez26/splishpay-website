@@ -22,7 +22,7 @@ export default {
               <p class="sf text-xl md:text-2xl mb-12">
                 Discover what Splish can do for you. Schedule a product demo today.
               </p>
-              <a data-type="button" class="btn bg-$black border border-$primary rounded text-$primary px-11 text-lg py-5 btn-primary" href="#">
+              <a data-type="button" class="btn bg-$black border border-$primary rounded text-$primary px-11 text-lg py-5 btn-primary" href="https://calendly.com/splish/30min" target="_blank">
                 Schedule Demo
               </a>
             </div>
